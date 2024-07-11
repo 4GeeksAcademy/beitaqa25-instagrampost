@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto-type;
+    font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -32,6 +32,8 @@ body {
 .user-info img {
     border-radius: 50%;
     margin-right: 10px;
+    width: 30px; /* Ajustar el tamaño de la imagen */
+    height: 30px; /* Ajustar el tamaño de la imagen */
 }
 
 .user-info h4, .user-info p {
@@ -40,6 +42,7 @@ body {
 
 .post-options {
     cursor: pointer;
+    
 }
 
 .post-img img {
@@ -76,8 +79,4 @@ body {
 
 .post-body p strong {
     font-weight: bold;
-}
-
-.rigth {
-    right: 15px;
 }
